@@ -1,1 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+#sacola{
+    background-image: url(../MirrorFashion-1/img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+#menu-opcoes{
+    font-size: 15px;
+}
