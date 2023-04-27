@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    color: #333333;
+    font-family: "Lucida SansUnicode", "Lucida Grande", sans-serif;
+}
+
 #sacola{
     background-image: url(../MirrorFashion-1/img/sacola.png);
     background-repeat: no-repeat;
@@ -11,8 +16,15 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
+    padding-top: 8px;
+}
+
+#menu-opcoes ul li{
+    font-size: 15px;
+    display: inline;
+    text-align: right;
 }
 
 #menu-opcoes{
-    font-size: 15px;
+    color:  #003366;
 }
