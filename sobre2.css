@@ -8,6 +8,10 @@ body{
     font-family: "Lucida SansUnicode", "Lucida Grande", sans-serif;
 }
 
+header{
+    position: relative;
+}
+
 #sacola{
     background-image: url(../MirrorFashion/img/sacola.png);
     background-repeat: no-repeat;
@@ -17,6 +21,9 @@ body{
     text-align: right;
     width: 140px;
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #menu-opcoes ul li{
@@ -27,4 +34,10 @@ body{
 
 #menu-opcoes{
     color:  #003366;
+    float: right;
 }
+
+container{
+    width: 940px;
+}
+
